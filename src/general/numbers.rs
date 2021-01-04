@@ -2,6 +2,8 @@
 use std::mem;
 
 pub fn numbers() {
+    println!("\n>> {}\n", "Numbers");
+
     let immutable_number: u8 = 123; // u = unsigned, 8 bits, 0 - 255
     println!("immutable_number = {}", immutable_number); // immutable
 
@@ -46,4 +48,12 @@ pub fn numbers() {
         size_of_number_isize,
         size_of_number_isize * 8
     );
+
+    // f32, f64 -> IEEE754 signed!
+
+    let floating_number: f32 = 2.5;
+    println!("floating_number = {}, takes up {} bytes", floating_number, mem::size_of_val(&floating_number));
+
+    let default_floating_number = 2.5; // default f64
+    println!("default_floating_number = {}, takes up {} bytes", default_floating_number, mem::size_of_val(&default_floating_number));
 }

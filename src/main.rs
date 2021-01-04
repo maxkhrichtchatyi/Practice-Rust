@@ -1,6 +1,7 @@
 mod general;
 
 fn main() {
+    // Work with numbers
     general::numbers();
 
     // Work with chars
