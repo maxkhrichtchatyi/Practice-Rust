@@ -9,4 +9,7 @@ fn main() {
 
     // Work with booleans
     general::booleans();
+
+    // Work with constants
+    general::constants();
 }
