@@ -13,6 +13,9 @@ fn main() {
     // Work with operators
     general::operators();
 
+    // Work with scopes
+    general::scope_and_shadowing();
+
     // Work with constants
     general::constants();
 }
