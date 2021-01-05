@@ -10,6 +10,9 @@ fn main() {
     // Work with booleans
     general::booleans();
 
+    // Work with operators
+    general::operators();
+
     // Work with constants
     general::constants();
 }
