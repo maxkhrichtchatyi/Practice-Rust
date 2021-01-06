@@ -18,4 +18,7 @@ fn main() {
 
     // Work with constants
     general::constants();
+
+    // Work with stack and heap
+    general::stack_and_heap();
 }
