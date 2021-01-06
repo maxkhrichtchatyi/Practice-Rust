@@ -1,4 +1,4 @@
-#[allow(unused_variables)]
+#![allow(unused_variables)]
 
 pub fn scope_and_shadowing() {
     println!("\n>> {}\n", "Scope and shadowing");

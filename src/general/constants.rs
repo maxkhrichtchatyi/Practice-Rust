@@ -1,4 +1,4 @@
-#[allow(unused_variables)]
+#![allow(unused_variables)]
 const MEANING_OF_LIFE: u8 = 42; // no fixed address
 static STATIC_MEANING: i32 = 123;
 

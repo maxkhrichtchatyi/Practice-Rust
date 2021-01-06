@@ -1,4 +1,4 @@
-#[allow(unused_variables)]
+#![allow(unused_variables)]
 
 pub fn operators() {
     println!("\n>> {}\n", "Operators");
