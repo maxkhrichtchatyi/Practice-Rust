@@ -21,4 +21,7 @@ fn main() {
 
     // Work with stack and heap
     general::stack_and_heap();
+
+    // Work with if statement
+    general::if_statement();
 }
