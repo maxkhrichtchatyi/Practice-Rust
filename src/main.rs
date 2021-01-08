@@ -24,4 +24,7 @@ fn main() {
 
     // Work with if statement
     general::if_statement();
+
+    // Work with while loop
+    general::while_loop();
 }
