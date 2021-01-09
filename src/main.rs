@@ -27,4 +27,7 @@ fn main() {
 
     // Work with while loop
     general::while_loop();
+
+    // Work with for loop
+    general::for_loop();
 }

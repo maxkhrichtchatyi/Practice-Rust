@@ -7,6 +7,7 @@ mod constants;
 mod stack_and_heap;
 mod if_statement;
 mod while_loop;
+mod for_loop;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -17,3 +18,4 @@ pub use constants::constants;
 pub use stack_and_heap::stack_and_heap;
 pub use if_statement::if_statement;
 pub use while_loop::while_loop;
+pub use for_loop::for_loop;
