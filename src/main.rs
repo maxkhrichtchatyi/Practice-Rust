@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 mod general;
 
 fn main() {
@@ -33,4 +35,7 @@ fn main() {
 
     // Work with match statement
     general::match_statement();
+
+    // Work with combination lock
+    //general::combination_lock();
 }
