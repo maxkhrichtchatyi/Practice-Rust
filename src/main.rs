@@ -38,4 +38,7 @@ fn main() {
 
     // Work with combination lock
     //general::combination_lock();
+
+    // Work with structs
+    general::structs();
 }

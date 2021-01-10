@@ -10,6 +10,7 @@ mod while_loop;
 mod for_loop;
 mod match_statement;
 mod combination_lock;
+mod structs;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -23,3 +24,4 @@ pub use while_loop::while_loop;
 pub use for_loop::for_loop;
 pub use match_statement::match_statement;
 pub use combination_lock::combination_lock;
+pub use structs::structs;
