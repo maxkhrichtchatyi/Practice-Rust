@@ -30,4 +30,7 @@ fn main() {
 
     // Work with for loop
     general::for_loop();
+
+    // Work with match statement
+    general::match_statement();
 }
