@@ -44,4 +44,7 @@ fn main() {
 
     // Works with enums
     general::enums();
+
+    // Works with unions
+    general::unions();
 }
