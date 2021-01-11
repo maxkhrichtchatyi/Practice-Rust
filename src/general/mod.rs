@@ -11,6 +11,7 @@ mod for_loop;
 mod match_statement;
 mod combination_lock;
 mod structs;
+mod enumerations;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -25,3 +26,4 @@ pub use for_loop::for_loop;
 pub use match_statement::match_statement;
 pub use combination_lock::combination_lock;
 pub use structs::structs;
+pub use enumerations::enums;

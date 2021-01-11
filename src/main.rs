@@ -41,4 +41,7 @@ fn main() {
 
     // Work with structs
     general::structs();
+
+    // Works with enums
+    general::enums();
 }
