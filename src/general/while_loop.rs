@@ -1,6 +1,8 @@
 #![allow(unused_variables)]
 
 pub fn while_loop() {
+    println!("\n>> {}\n", "While loop");
+
     let mut incremented_value: i8 = 1;
 
     while incremented_value <= 10 {

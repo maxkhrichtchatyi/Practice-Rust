@@ -11,6 +11,8 @@ struct Line {
 }
 
 pub fn structs() {
+    println!("\n>> {}\n", "Structs");
+
     let point = Point {
         x: 10.5,
         y: 10.5,

@@ -9,6 +9,8 @@ enum State {
 }
 
 pub fn combination_lock() {
+    println!("\n>> {}\n", "Combination lock");
+
     let code: String = String::from("2021");
     let mut state = State::Locked;
     let mut entry: String = String::new();

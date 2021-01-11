@@ -1,6 +1,8 @@
 #![allow(unused_variables)]
 
 pub fn for_loop() {
+    println!("\n>> {}\n", "For loop");
+
     for item in 1..11 {
         if item == 3 {
             continue;
