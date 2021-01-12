@@ -47,4 +47,7 @@ fn main() {
 
     // Works with unions
     general::unions();
+
+    // Works with Option<T>
+    general::option_t();
 }

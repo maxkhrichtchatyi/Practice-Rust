@@ -13,6 +13,7 @@ mod combination_lock;
 mod structs;
 mod enumerations;
 mod unions;
+mod option_t;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -29,3 +30,4 @@ pub use combination_lock::combination_lock;
 pub use structs::structs;
 pub use enumerations::enums;
 pub use unions::unions;
+pub use option_t::option_t;
