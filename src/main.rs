@@ -50,4 +50,7 @@ fn main() {
 
     // Works with Option<T>
     general::option_t();
+
+    // Work with arrays
+    general::arrays();
 }

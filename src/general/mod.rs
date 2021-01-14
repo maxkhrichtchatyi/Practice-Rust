@@ -14,6 +14,7 @@ mod structs;
 mod enumerations;
 mod unions;
 mod option_t;
+mod arrays;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -31,3 +32,4 @@ pub use structs::structs;
 pub use enumerations::enums;
 pub use unions::unions;
 pub use option_t::option_t;
+pub use arrays::arrays;
