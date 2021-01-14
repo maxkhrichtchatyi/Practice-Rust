@@ -42,13 +42,13 @@ fn main() {
     // Work with structs
     general::structs();
 
-    // Works with enums
+    // Work with enums
     general::enums();
 
-    // Works with unions
+    // Work with unions
     general::unions();
 
-    // Works with Option<T>
+    // Work with Option<T>
     general::option_t();
 
     // Work with arrays
