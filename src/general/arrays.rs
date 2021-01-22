@@ -34,4 +34,21 @@ pub fn arrays() {
     }
 
     println!("dyn_arr took up {} bytes", std::mem::size_of_val(&dyn_arr));
+
+    let mtx: [[f32; 3]; 3] = [
+        [1.0, 2.0, 3.0],
+        [2.0, 4.0, 6.0],
+        [4.0, 8.0, 12.0],
+    ];
+
+    println!("{:?}", mtx);
+
+    for i in 0..mtx.len() {
+        for j in 0..mtx[0].len() {
+            // only diagonal
+            if i == j {
+                println!("mtx[{}][{}] = {}", i, j, mtx[i][j]);
+            }
+        }
+    }
 }
