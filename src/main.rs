@@ -53,4 +53,7 @@ fn main() {
 
     // Work with arrays
     general::arrays();
+
+    // Work with slices
+    general::slices();
 }

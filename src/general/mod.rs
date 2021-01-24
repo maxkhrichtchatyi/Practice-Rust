@@ -15,6 +15,7 @@ mod enumerations;
 mod unions;
 mod option_t;
 mod arrays;
+mod slices;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -33,3 +34,4 @@ pub use enumerations::enums;
 pub use unions::unions;
 pub use option_t::option_t;
 pub use arrays::arrays;
+pub use slices::slices;
