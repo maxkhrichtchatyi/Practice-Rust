@@ -56,4 +56,7 @@ fn main() {
 
     // Work with slices
     general::slices();
+
+    // Work with tuples
+    general::tuples();
 }
