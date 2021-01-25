@@ -59,4 +59,7 @@ fn main() {
 
     // Work with tuples
     general::tuples();
+
+    // Work with pattern matching
+    general::pattern_matching();
 }

@@ -17,6 +17,7 @@ mod option_t;
 mod arrays;
 mod slices;
 mod tuples;
+mod pattern_matching;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -37,3 +38,4 @@ pub use option_t::option_t;
 pub use arrays::arrays;
 pub use slices::slices;
 pub use tuples::tuples;
+pub use pattern_matching::pattern_matching;
