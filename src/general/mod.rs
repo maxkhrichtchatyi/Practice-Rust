@@ -18,6 +18,7 @@ mod arrays;
 mod slices;
 mod tuples;
 mod pattern_matching;
+mod generics;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -39,3 +40,4 @@ pub use arrays::arrays;
 pub use slices::slices;
 pub use tuples::tuples;
 pub use pattern_matching::pattern_matching;
+pub use generics::generics;

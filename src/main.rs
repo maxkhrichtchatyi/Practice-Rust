@@ -62,4 +62,7 @@ fn main() {
 
     // Work with pattern matching
     general::pattern_matching();
+
+    // Work with generics
+    general::generics();
 }
