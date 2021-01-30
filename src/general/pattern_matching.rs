@@ -20,7 +20,7 @@ enum Color {
 }
 
 pub fn pattern_matching() {
-    println!("\n>>{}\n", "Pattern matching");
+    println!("\n>> {}\n", "Pattern matching");
 
     for x in 0..13 {
         println!("{}: I have {} oranges", x, how_many(x));

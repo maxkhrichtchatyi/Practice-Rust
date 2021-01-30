@@ -12,7 +12,7 @@ struct Line<T, V> {
 }
 
 pub fn generics() {
-    println!("\n>>{}\n", "Generics");
+    println!("\n>> {}\n", "Generics");
 
     let a: Point<i16, i16> = Point {
         x: 0,
