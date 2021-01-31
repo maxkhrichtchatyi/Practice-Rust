@@ -65,4 +65,7 @@ fn main() {
 
     // Work with generics
     general::generics();
+
+    // Work with vectors
+    general::vectors();
 }
