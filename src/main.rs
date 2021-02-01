@@ -68,4 +68,7 @@ fn main() {
 
     // Work with vectors
     general::vectors();
+
+    // Work with hash maps
+    general::hash_maps();
 }

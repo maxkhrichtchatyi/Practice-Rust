@@ -20,6 +20,7 @@ mod tuples;
 mod pattern_matching;
 mod generics;
 mod vectors;
+mod hash_maps;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -43,3 +44,4 @@ pub use tuples::tuples;
 pub use pattern_matching::pattern_matching;
 pub use generics::generics;
 pub use vectors::vectors;
+pub use hash_maps::hash_maps;
