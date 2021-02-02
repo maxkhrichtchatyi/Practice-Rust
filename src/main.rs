@@ -71,4 +71,7 @@ fn main() {
 
     // Work with hash maps
     general::hash_maps();
+
+    // Work with hash sets
+    general::hash_sets();
 }
