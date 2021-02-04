@@ -74,4 +74,7 @@ fn main() {
 
     // Work with hash sets
     general::hash_sets();
+
+    // Work with iterators
+    general::iterators();
 }
