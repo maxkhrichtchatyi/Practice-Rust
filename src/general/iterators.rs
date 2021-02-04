@@ -8,4 +8,8 @@ pub fn iterators() {
     for x in &vec {
         println!("{}", *x);
     }
+
+    for x in vec.iter() {
+        println!("iter {}", x);
+    }
 }
