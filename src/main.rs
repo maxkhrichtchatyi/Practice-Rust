@@ -80,4 +80,7 @@ fn main() {
 
     // Work with strings
     general::strings();
+
+    // Work with string formatting
+    general::string_formatting();
 }

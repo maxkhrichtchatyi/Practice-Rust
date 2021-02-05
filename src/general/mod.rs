@@ -24,6 +24,7 @@ mod hash_maps;
 mod hash_sets;
 mod iterators;
 mod strings;
+mod string_formatting;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -51,3 +52,4 @@ pub use hash_maps::hash_maps;
 pub use hash_sets::hash_sets;
 pub use iterators::iterators;
 pub use strings::strings;
+pub use string_formatting::string_formatting;
