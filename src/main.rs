@@ -77,4 +77,7 @@ fn main() {
 
     // Work with iterators
     general::iterators();
+
+    // Work with strings
+    general::strings();
 }
