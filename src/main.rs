@@ -1,6 +1,7 @@
 #![allow(dead_code)]
 
 mod general;
+mod little_programs;
 
 fn main() {
     // Work with numbers
@@ -83,4 +84,7 @@ fn main() {
 
     // Work with string formatting
     general::string_formatting();
+
+    // Number guessing game
+    little_programs::run();
 }
