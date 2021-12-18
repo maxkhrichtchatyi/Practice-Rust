@@ -25,6 +25,7 @@ mod hash_sets;
 mod iterators;
 mod strings;
 mod string_formatting;
+mod casting;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -53,3 +54,4 @@ pub use hash_sets::hash_sets;
 pub use iterators::iterators;
 pub use strings::strings;
 pub use string_formatting::string_formatting;
+pub use casting::casting;
