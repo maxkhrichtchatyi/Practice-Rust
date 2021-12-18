@@ -88,6 +88,9 @@ fn main() {
     // Casting variables
     general::casting();
 
+    // Formatting
+    general::fmt();
+
     // Number guessing game
     // little_programs::run();
 }
