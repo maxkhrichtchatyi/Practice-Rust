@@ -27,6 +27,7 @@ mod strings;
 mod string_formatting;
 mod casting;
 mod formatting;
+mod bitwise;
 
 pub use numbers::numbers;
 pub use chars::chars;
@@ -57,3 +58,4 @@ pub use strings::strings;
 pub use string_formatting::string_formatting;
 pub use casting::casting;
 pub use formatting::fmt;
+pub use bitwise::bitwise;

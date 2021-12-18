@@ -86,10 +86,13 @@ fn main() {
     // general::string_formatting();
 
     // Casting variables
-    general::casting();
+    // general::casting();
 
     // Formatting
-    general::fmt();
+    // general::fmt();
+
+    // Bitwise
+    general::bitwise();
 
     // Number guessing game
     // little_programs::run();
